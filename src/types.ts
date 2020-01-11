@@ -13,6 +13,8 @@ export interface IProxyStream {
 export interface IStream {
   deposit: string;
   id: string;
+  recipient: string;
+  sender: string;
   token: IToken;
 }
 

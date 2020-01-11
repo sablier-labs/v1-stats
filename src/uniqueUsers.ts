@@ -1,9 +1,8 @@
-import data from "./data.json";
+import data from "./proxyStreams.json";
 import { IOccurrence, IProxyStream } from "./types";
 
 const proxyStreams: IProxyStream[] = data.data.proxyStreams;
 const length: number = proxyStreams.length;
-
 const occurrences: IOccurrence = {};
 
 for (let i: number = 0; i < length; i += 1) {
