@@ -1,0 +1,22 @@
+{
+  "name": "ts-pad",
+  "description": "Experimentation pad for my personal TypeScript projects and packages",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./lib",
+  "files": [
+    "/lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "lint": "tslint --config ./tslint.json --project ."
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "ethers": "^4.0.43"
+  }
+}
