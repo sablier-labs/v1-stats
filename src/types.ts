@@ -21,6 +21,6 @@ export interface IStream {
 export interface IToken {
   decimals: number;
   id: string;
-  name: string;
-  symbol: string;
+  name: string | null;
+  symbol: string | null;
 }
