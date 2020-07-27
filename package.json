@@ -3,9 +3,9 @@
   "description": "Experimentation pad for my personal TypeScript projects and packages",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "./lib",
+  "main": "./dist",
   "files": [
-    "/lib"
+    "/dist"
   ],
   "devDependencies": {
     "@types/node": "^13.1.6",
